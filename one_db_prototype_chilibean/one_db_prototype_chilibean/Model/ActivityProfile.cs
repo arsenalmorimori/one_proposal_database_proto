@@ -7,7 +7,7 @@ namespace one_db_prototype_chilibean.Model {
     public class ActivityProfile {
         [Key]
         [Column("activity_id")]
-        public string activity_id { get; set; } = Guid.NewGuid().ToString();
+       public Guid activity_id { get; set; } 
 
         [Required]
         [Column("club_id")]
@@ -17,15 +17,6 @@ namespace one_db_prototype_chilibean.Model {
         [StringLength(150)]
         [Column("activity_title")]
         public string activity_title { get; set; }
-
-        [Required]
-        [Column("activity_date")]
-        public DateTime activity_date { get; set; }
-
-        [Required]
-        [StringLength(50)]
-        [Column("club_name")]
-        public string club_name { get; set; }
 
         [ForeignKey("club_id")]
         public Club Club { get; set; }

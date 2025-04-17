@@ -1,0 +1,153 @@
+﻿@page "/activities/details/{ActivityId:guid}"
+@using Microsoft.EntityFrameworkCore
+@using one_db_prototype_chilibean.Model
+@using one_db_prototype_chilibean.Data
+@inject AppDbContext DbContext
+@inject NavigationManager Navigation
+
+<h3>DEV - Activity Details</h3>
+
+@if (activity == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <div class="card">
+        <div class="card-header">
+            <h4>@activity.Profile.activity_title</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Club</dt>
+                <dd class="col-sm-9">@activity.Club?.club_name</dd>
+
+                <dt class="col-sm-3">Date</dt>
+                <dd class="col-sm-9">@activity.Brief?.activity_date.ToShortDateString()</dd>
+
+                <dt class="col-sm-3">Description</dt>
+                <dd class="col-sm-9">@activity.Brief?.activity_brief_description</dd>
+
+                <dt class="col-sm-3">Status</dt>
+                <dd class="col-sm-9">@activity.Status?.activity_overall_status</dd>
+
+                <dt class="col-sm-3">Rationale</dt>
+                <dd class="col-sm-9">@activity.Detail?.activity_rationale</dd>
+
+                <dt class="col-sm-3">Objectives</dt>
+                <dd class="col-sm-9">@activity.Detail?.activity_objectives</dd>
+                
+                <dt class="col-sm-3">Act Type</dt>
+                <dd class="col-sm-9">@activity.Detail?.activity_activity_type</dd>
+
+                <dt class="col-sm-3">Act Reach</dt>
+                <dd class="col-sm-9">@activity.Detail?.activity_activity_reach</dd>
+
+
+
+
+
+                <dt class="col-sm-3">activity_date remarks</dt>
+                <dd class="col-sm-9">@(activity.Remarks?.activity_date_remark ?? "null")</dd>
+
+                <dt class="col-sm-3">activity_brief_description remark</dt>
+                <dd class="col-sm-9">@(activity.Remarks?.activity_brief_description_remark ?? "null")</dd>
+
+                <dt class="col-sm-3">activity_rationale remark</dt>
+                <dd class="col-sm-9">@(activity.Remarks?.rationale_remark ?? "null")</dd>
+
+                <dt class="col-sm-3">activity_objectives remark</dt>
+                <dd class="col-sm-9">@(activity.Remarks?.objectives_remark ?? "null")</dd>
+
+                <dt class="col-sm-3">activity_type_remark remark</dt>
+                <dd class="col-sm-9">@(activity.Remarks?.activity_type_remark ?? "null")</dd>
+
+                <dt class="col-sm-3">activity_activity_reach remark</dt>
+                <dd class="col-sm-9">@(activity.Remarks?.activity_reach_remark ?? "null")</dd>
+
+
+
+
+                <dt class="col-sm-3">admin 1</dt>
+                <dd class="col-sm-9">@activity.Status?.admin_1_status</dd>
+                <dt class="col-sm-3">admin 2</dt>
+                <dd class="col-sm-9">@activity.Status?.admin_2_status</dd>
+                <dt class="col-sm-3">admin 3</dt>
+                <dd class="col-sm-9">@activity.Status?.admin_3_status</dd>
+            </dl>
+
+            <h5>Budget Items</h5>
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in activity.BudgetPlans)
+                    {
+                        <tr>
+                            <td>@item.item_name</td>
+                            <td>@item.price.ToString("C")</td>
+                            <td>@item.quantity</td>
+                            <td>@((item.price * item.quantity).ToString("C"))</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+       <div class="card-footer">
+            <div class="card-footer">
+                <button @onclick="ReturnToList" class="btn btn-primary">Back to List</button>
+            </div>
+
+            @code {
+            private void ReturnToList()
+            {
+                Navigation.NavigateTo("/activities");
+            }
+        }
+    </div>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public Guid ActivityId { get; set; }
+
+    private ActivityViewModel activity;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadActivity();
+    }
+
+    private async Task LoadActivity()
+    {
+        var profile = await DbContext.activity_profile_tbl
+            .Include(p => p.Club)
+            .Include(p => p.ActivityBrief)
+            .Include(p => p.ActivityDetail)
+            .Include(p => p.ActivityStatus)
+            .Include(p => p.RemarksActivity)
+            .Include(p => p.ActivityBudgetPlans)
+            .FirstOrDefaultAsync(p => p.activity_id == ActivityId);
+        
+        if (profile != null)
+        {
+            activity = new ActivityViewModel
+            {
+                Profile = profile,
+                Club = profile.Club,
+                Brief = profile.ActivityBrief,
+                Detail = profile.ActivityDetail,
+                Status = profile.ActivityStatus,
+                Remarks = profile.RemarksActivity,
+                BudgetPlans = profile.ActivityBudgetPlans?.ToList() ?? new List<ActivityBudgetPlan>()
+            };
+        }
+    }
+}

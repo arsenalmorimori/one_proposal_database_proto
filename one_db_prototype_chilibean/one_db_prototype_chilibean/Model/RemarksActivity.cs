@@ -7,7 +7,7 @@ namespace one_db_prototype_chilibean.Model {
         [Key]
         [ForeignKey("ActivityProfile")]
         [Column("activity_id")]
-        public string activity_id { get; set; }
+        public Guid activity_id { get; set; }
 
         [StringLength(1000)]
         [Column("activity_title_remark")]

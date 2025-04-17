@@ -37,12 +37,6 @@ namespace one_db_prototype_chilibean.Data {
                     .IsRequired()
                     .HasMaxLength(150);
 
-                entity.Property(e => e.activity_date)
-                    .IsRequired();
-
-                entity.Property(e => e.club_name)
-                    .IsRequired()
-                    .HasMaxLength(50);
 
                 entity.HasOne(a => a.Club)
                     .WithMany(c => c.ActivityProfiles)

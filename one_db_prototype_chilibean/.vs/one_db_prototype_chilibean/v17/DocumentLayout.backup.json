@@ -3,44 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\model\\activitybudgetplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\model\\activitybudgetplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\model\\activityprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\model\\activityprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\model\\activitybrief.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\model\\activitybrief.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\model\\activitydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\model\\activitydetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\model\\activitystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\model\\activitystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\model\\remarksactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\model\\remarksactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\model\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\model\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\components\\pages\\activity\\allactivitydata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5161B53-B944-45C9-B675-EA1F31973280}|one_db_prototype_chilibean\\one_db_prototype_chilibean.csproj|solutionrelative:one_db_prototype_chilibean\\components\\pages\\activity\\allactivitydata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,127 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\appsettings.json",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\appsettings.json",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\appsettings.json",
-              "RelativeToolTip": "one_db_prototype_chilibean\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-17T14:07:29.074Z",
+              "Title": "AllActivityData.razor",
+              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Components\\Pages\\Activity\\AllActivityData.razor",
+              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Components\\Pages\\Activity\\AllActivityData.razor",
+              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Components\\Pages\\Activity\\AllActivityData.razor*",
+              "RelativeToolTip": "one_db_prototype_chilibean\\Components\\Pages\\Activity\\AllActivityData.razor*",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T17:11:46.824Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Program.cs",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Program.cs",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Program.cs",
-              "RelativeToolTip": "one_db_prototype_chilibean\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:07:00.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Data\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Data\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Data\\AppDBContext.cs",
-              "RelativeToolTip": "one_db_prototype_chilibean\\Data\\AppDBContext.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAuwL0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T14:03:52.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ActivityBudgetPlan.cs",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityBudgetPlan.cs",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Model\\ActivityBudgetPlan.cs",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityBudgetPlan.cs",
-              "RelativeToolTip": "one_db_prototype_chilibean\\Model\\ActivityBudgetPlan.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:50:50.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RemarksActivity.cs",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\RemarksActivity.cs",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Model\\RemarksActivity.cs",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\RemarksActivity.cs",
-              "RelativeToolTip": "one_db_prototype_chilibean\\Model\\RemarksActivity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:50:07.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ActivityStatus.cs",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityStatus.cs",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Model\\ActivityStatus.cs",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityStatus.cs",
-              "RelativeToolTip": "one_db_prototype_chilibean\\Model\\ActivityStatus.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA0wAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:49:02.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ActivityDetail.cs",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityDetail.cs",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Model\\ActivityDetail.cs",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityDetail.cs",
-              "RelativeToolTip": "one_db_prototype_chilibean\\Model\\ActivityDetail.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:48:34.6Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ActivityBrief.cs",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityBrief.cs",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Model\\ActivityBrief.cs",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityBrief.cs",
-              "RelativeToolTip": "one_db_prototype_chilibean\\Model\\ActivityBrief.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:48:00.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ActivityProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityProfile.cs",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Model\\ActivityProfile.cs",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\ActivityProfile.cs",
-              "RelativeToolTip": "one_db_prototype_chilibean\\Model\\ActivityProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:47:06.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Club.cs",
-              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\Club.cs",
-              "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Model\\Club.cs",
-              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Model\\Club.cs",
-              "RelativeToolTip": "one_db_prototype_chilibean\\Model\\Club.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T13:41:36.496Z"
             }
           ]
         },

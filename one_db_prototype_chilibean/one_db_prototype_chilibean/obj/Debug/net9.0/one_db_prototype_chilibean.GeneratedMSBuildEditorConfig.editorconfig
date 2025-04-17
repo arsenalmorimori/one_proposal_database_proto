@@ -32,6 +32,22 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/ActivityView/DevView.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY3Rpdml0eVZpZXdcRGV2Vmlldy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/Activity/ActivityUser.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY3Rpdml0eVxBY3Rpdml0eVVzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/Activity/AllActivityData.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY3Rpdml0eVxBbGxBY3Rpdml0eURhdGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/Clubs/ClubList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbHVic1xDbHViTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -63,3 +79,27 @@ build_metadata.AdditionalFiles.CssScope = b-5wt09ip9w2
 [C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-4hix3vg13b
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/Clubs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbHVic1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/Clubs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbHVic1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/Clubs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbHVic1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/Clubs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbHVic1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/Clubs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbHVic1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

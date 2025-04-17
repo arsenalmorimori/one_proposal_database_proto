@@ -1,5 +1,9 @@
 ﻿@page "/Error"
 @using System.Diagnostics
+@using one_db_prototype_chilibean.Data
+@using one_db_prototype_chilibean.Model
+
+@inject IHttpContextAccessor HttpContextAccessor
 
 <PageTitle>Error</PageTitle>
 
@@ -32,5 +36,6 @@
     private bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 
     protected override void OnInitialized() =>
-        RequestId = Activity.Current?.Id ?? HttpContext?.TraceIdentifier;
+        // Fully qualify the Activity class with System.Diagnostics
+        RequestId = System.Diagnostics.Activity.Current?.Id ?? HttpContextAccessor.HttpContext?.TraceIdentifier;
 }

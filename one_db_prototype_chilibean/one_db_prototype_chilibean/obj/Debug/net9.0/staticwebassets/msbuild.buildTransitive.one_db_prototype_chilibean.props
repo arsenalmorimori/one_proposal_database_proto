@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\one_db_prototype_chilibean.props" />
+</Project>

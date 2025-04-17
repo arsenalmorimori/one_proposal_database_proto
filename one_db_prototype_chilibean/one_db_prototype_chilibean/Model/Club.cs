@@ -8,10 +8,9 @@ namespace one_db_prototype_chilibean.Model {
         [Column("club_id")]
         public int club_id { get; set; }
 
-        [Required]
         [StringLength(50)]
         [Column("club_name")]
-        public string club_name { get; set; }
+        public string? club_name { get; set; }  // Note the ?
 
         public ICollection<ActivityProfile> ActivityProfiles { get; set; }
     }

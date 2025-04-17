@@ -1,0 +1,51 @@
+﻿@page "/clubs"
+@using Microsoft.EntityFrameworkCore
+@using one_db_prototype_chilibean.Model
+@using one_db_prototype_chilibean.Data
+@inject AppDbContext DbContext
+
+<h3>Club List</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var club in clubs)
+        {
+            <tr>
+                <td>@club.club_id</td>
+                <td>@club.club_name</td>
+                <td>
+                    <a href=$"/clubs/edit/{club.club_id}" class="btn btn-primary">Edit</a>
+                    <button @onclick="(() => DeleteClub(club.club_id))" class="btn btn-danger">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/clubs/create" class="btn btn-success">Create New</a>
+
+@code {
+    private List<Club> clubs = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        clubs = await DbContext.club_main_tbl.ToListAsync();
+    }
+
+    private async Task DeleteClub(int id)
+    {
+        var club = await DbContext.club_main_tbl.FindAsync(id);
+        if (club != null)
+        {
+            DbContext.club_main_tbl.Remove(club);
+            await DbContext.SaveChangesAsync();
+            clubs = await DbContext.club_main_tbl.ToListAsync();
+        }
+    }
+}
