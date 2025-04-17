@@ -32,6 +32,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_r2/one_db_prototype_r2/Components/Pages/ActivityProfile/IndexActivityProfile.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY3Rpdml0eVByb2ZpbGVcSW5kZXhBY3Rpdml0eVByb2ZpbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_r2/one_db_prototype_r2/Components/Pages/ClubPages/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDbHViUGFnZXNcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

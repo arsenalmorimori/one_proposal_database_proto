@@ -7,15 +7,24 @@ using System;
 var builder = WebApplication.CreateBuilder(args);
 
 
+// Register with DI container
 builder.Services.AddDbContextFactory<ClubDBContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(8, 0, 34))));
+        new MySqlServerVersion(new Version(8, 0, 34)),
+        o => o.EnableRetryOnFailure()));
 
-builder.Services.AddDbContext<ClubDBContext>(options =>
+builder.Services.AddDbContextFactory<ActivityProfileDBContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
-        new MySqlServerVersion(new Version(8, 0, 34))));
+        new MySqlServerVersion(new Version(8, 0, 34)),
+        o => o.EnableRetryOnFailure()));
+
+// Add scoped versions if needed
+builder.Services.AddDbContext<ClubDBContext>(/* same config */);
+builder.Services.AddDbContext<ActivityProfileDBContext>(/* same config */);
+
+
 builder.Services.AddQuickGridEntityFrameworkAdapter();
 
 

@@ -4,33 +4,91 @@
 @using one_db_prototype_r2.Model
 @using one_db_prototype_r2.Data
 @implements IAsyncDisposable
-@inject IDbContextFactory<one_db_prototype_r2.Data.ClubDBContext> DbFactory
+@inject IDbContextFactory<ClubDBContext> DbFactory
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Clubs</PageTitle>
 
-<h1>Index</h1>
+<h1>Clubs</h1>
 
-<p>
-    <a href="clubs/create">Create New</a>
-</p>
+<div class="mb-3">
+    <a class="btn btn-primary" href="clubs/create">Create New Club</a>
+</div>
 
-<QuickGrid Class="table" Items="context.Club">
-    <PropertyColumn Property="club => club.club_name" />
+@if (isLoading)
+{
+    <div class="text-center my-5">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+}
+else if (errorMessage != null)
+{
+    <div class="alert alert-danger">
+        @errorMessage
+        <button class="btn btn-sm btn-outline-secondary ms-3" @onclick="ReloadData">Retry</button>
+    </div>
+}
+else
+{
+    <QuickGrid Items="clubs" Class="table table-striped" Pagination="@pagination">
+        <PropertyColumn Title="ID" Property="@(c => c.club_id)" Sortable="true" />
+        <PropertyColumn Title="Club Name" Property="@(c => c.club_name)" Sortable="true" />
 
-    <TemplateColumn Context="club">
-        <a href="@($"clubs/edit?club_id={club.club_id}")">Edit</a> |
-        <a href="@($"clubs/details?club_id={club.club_id}")">Details</a> |
-        <a href="@($"clubs/delete?club_id={club.club_id}")">Delete</a>
-    </TemplateColumn>
-</QuickGrid>
+        <TemplateColumn Title="Actions">
+            <a class="btn btn-sm btn-outline-primary" href="@($"clubs/edit/{context?.club_id}")">Edit</a>
+            <a class="btn btn-sm btn-outline-info" href="@($"clubs/details/{context?.club_id}")">Details</a>
+            <a class="btn btn-sm btn-outline-danger" href="@($"clubs/delete/{context?.club_id}")">Delete</a>
+        </TemplateColumn>
+    </QuickGrid>
+}
 
 @code {
-    private ClubDBContext context = default!;
+    private ClubDBContext? context;
+    private IQueryable<Club>? clubs;
+    private readonly PaginationState pagination = new() { ItemsPerPage = 10 };
+    private bool isLoading = true;
+    private string? errorMessage;
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        context = DbFactory.CreateDbContext();
+        await LoadData();
     }
 
-    public async ValueTask DisposeAsync() => await context.DisposeAsync();
+    private async Task LoadData()
+    {
+        try
+        {
+            isLoading = true;
+            errorMessage = null;
+            StateHasChanged();
+
+            context = DbFactory.CreateDbContext();
+            clubs = context.Club  // Note: Using 'Club' (singular) as per your DbSet name
+                .AsNoTracking()
+                .OrderBy(c => c.club_name)
+                .AsQueryable();
+        }
+        catch (Exception ex)
+        {
+            errorMessage = $"Failed to load clubs: {ex.Message}";
+            Console.Error.WriteLine(ex);
+        }
+        finally
+        {
+            isLoading = false;
+            StateHasChanged();
+        }
+    }
+
+    private Task ReloadData() => LoadData();
+
+    public async ValueTask DisposeAsync()
+    {
+        if (context is not null)
+        {
+            await context.DisposeAsync();
+        }
+        GC.SuppressFinalize(this);
+    }
 }
