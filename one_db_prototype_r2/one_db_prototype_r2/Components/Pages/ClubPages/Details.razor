@@ -1,0 +1,46 @@
+﻿@page "/clubs/details"
+@using Microsoft.EntityFrameworkCore
+@using one_db_prototype_r2.Model
+@inject IDbContextFactory<one_db_prototype_r2.Data.ClubDBContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Details</PageTitle>
+
+<h1>Details</h1>
+
+<div>
+    <h2>Club</h2>
+    <hr />
+    @if (club is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <dl class="row">
+            <dt class="col-sm-2">club_name</dt>
+            <dd class="col-sm-10">@club.club_name</dd>
+        </dl>
+        <div>
+            <a href="@($"/clubs/edit?club_id={club.club_id}")">Edit</a> |
+            <a href="@($"/clubs")">Back to List</a>
+        </div>
+    }
+</div>
+
+@code {
+    private Club? club;
+
+    [SupplyParameterFromQuery]
+    private int club_id { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        using var context = DbFactory.CreateDbContext();
+        club = await context.Club.FirstOrDefaultAsync(m => m.club_id == club_id);
+
+        if (club is null)
+        {
+            NavigationManager.NavigateTo("notfound");
+        }
+    }
+}

@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|solutionrelative:one_db_prototype_r2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|solutionrelative:one_db_prototype_r2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\data\\clubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|solutionrelative:one_db_prototype_r2\\data\\clubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|solutionrelative:one_db_prototype_r2\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\one_db_prototype_r2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|solutionrelative:one_db_prototype_r2\\one_db_prototype_r2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\components\\pages\\clubpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|solutionrelative:one_db_prototype_r2\\components\\pages\\clubpages\\create.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|c:\\users\\nesty\\programming\\asp\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\model\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1FCDBDD-013E-4E6F-B139-BA74722213F2}|one_db_prototype_r2\\one_db_prototype_r2.csproj|solutionrelative:one_db_prototype_r2\\model\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 283,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "one_db_prototype_r2\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "one_db_prototype_r2\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwB4AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T03:46:32.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClubDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Data\\ClubDBContext.cs",
+              "RelativeDocumentMoniker": "one_db_prototype_r2\\Data\\ClubDBContext.cs",
+              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Data\\ClubDBContext.cs",
+              "RelativeToolTip": "one_db_prototype_r2\\Data\\ClubDBContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwBYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:41:49.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Program.cs",
+              "RelativeDocumentMoniker": "one_db_prototype_r2\\Program.cs",
+              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Program.cs*",
+              "RelativeToolTip": "one_db_prototype_r2\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:40:21.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\appsettings.json",
+              "RelativeDocumentMoniker": "one_db_prototype_r2\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\appsettings.json*",
+              "RelativeToolTip": "one_db_prototype_r2\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T03:39:16.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "one_db_prototype_r2",
+              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\one_db_prototype_r2.csproj",
+              "RelativeDocumentMoniker": "one_db_prototype_r2\\one_db_prototype_r2.csproj",
+              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\one_db_prototype_r2.csproj",
+              "RelativeToolTip": "one_db_prototype_r2\\one_db_prototype_r2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-17T03:38:08.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.razor",
+              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Components\\Pages\\ClubPages\\Create.razor",
+              "RelativeDocumentMoniker": "one_db_prototype_r2\\Components\\Pages\\ClubPages\\Create.razor",
+              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Components\\Pages\\ClubPages\\Create.razor",
+              "RelativeToolTip": "one_db_prototype_r2\\Components\\Pages\\ClubPages\\Create.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T03:37:22.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Club.cs",
+              "DocumentMoniker": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Model\\Club.cs",
+              "RelativeDocumentMoniker": "one_db_prototype_r2\\Model\\Club.cs",
+              "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\Model\\Club.cs",
+              "RelativeToolTip": "one_db_prototype_r2\\Model\\Club.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:35:56.163Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 60,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\one_db_prototype_r2.props" />
+</Project>
