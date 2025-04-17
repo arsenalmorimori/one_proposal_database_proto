@@ -1,0 +1,44 @@
+﻿@page "/clubs/create"
+@using Microsoft.EntityFrameworkCore
+@using one_db_prototype.Model
+@inject IDbContextFactory<one_db_prototype.Data.one_db_prototypeContext> DbFactory
+@inject NavigationManager NavigationManager
+
+<PageTitle>Create</PageTitle>
+
+<h1>Create</h1>
+
+<h2>Club</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm method="post" Model="Club" OnValidSubmit="AddClub" FormName="create" Enhance>
+            <DataAnnotationsValidator />
+            <ValidationSummary class="text-danger" role="alert"/>
+            <div class="mb-3">
+                <label for="club_name" class="form-label">club_name:</label> 
+                <InputText id="club_name" @bind-Value="Club.club_name" class="form-control" /> 
+                <ValidationMessage For="() => Club.club_name" class="text-danger" /> 
+            </div>        
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+<div>
+    <a href="/clubs">Back to List</a>
+</div>
+
+@code {
+    [SupplyParameterFromForm]
+    private Club Club { get; set; } = new();
+
+    // To protect from overposting attacks, see https://learn.microsoft.com/aspnet/core/blazor/forms/#mitigate-overposting-attacks.
+    private async Task AddClub()
+    {
+        using var context = DbFactory.CreateDbContext();
+        context.Club.Add(Club);
+        await context.SaveChangesAsync();
+        NavigationManager.NavigateTo("/clubs");
+    }
+}
