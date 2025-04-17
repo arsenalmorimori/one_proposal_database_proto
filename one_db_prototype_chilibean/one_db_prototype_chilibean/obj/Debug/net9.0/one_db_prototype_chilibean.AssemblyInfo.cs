@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("one_db_prototype_chilibean")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d920f21f36f957ea951ba5bdbbd0ba617c8c0df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+280d3917228ce23e51ae821be0249d8653ee2a3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("one_db_prototype_chilibean")]
 [assembly: System.Reflection.AssemblyTitleAttribute("one_db_prototype_chilibean")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

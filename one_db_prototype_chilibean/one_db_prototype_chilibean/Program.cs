@@ -1,12 +1,26 @@
+using Microsoft.EntityFrameworkCore;
 using one_db_prototype_chilibean.Components;
+using one_db_prototype_chilibean.Data;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+// Add services to the container.
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(8, 0, 23)) // Use your MySQL server version
+    ));
+
+// Other services...
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
