@@ -12,6 +12,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         new MySqlServerVersion(new Version(8, 0, 23)) // Use your MySQL server version
     ));
 
+
+
 // Other services...
 
 // Add services to the container.

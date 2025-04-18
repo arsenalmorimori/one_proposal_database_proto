@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tkOyNIGmettGFtaMwcdIwEL9rZFZ/POBLWRW9/PD6qI=",
+  "Hash": "Sw9a0sgh4lfDuVqdA6Ur3ggW1AUjrpTWJbIBcjJf87k=",
   "Source": "one_db_prototype_r2",
   "BasePath": "_content/one_db_prototype_r2",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "Identity": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
-      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -35,13 +35,13 @@
       "Integrity": "Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "Identity": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js",
       "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
       "RelativePath": "QuickGrid.razor.js",
       "AssetKind": "All",
@@ -56,7 +56,7 @@
       "Integrity": "tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
     },
     {
       "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\0flusrc3mn-pj5nd1wqec.gz",
@@ -143,27 +143,6 @@
       "OriginalItemSpec": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\3gin1ph7ub-25o87uqmvr.gz",
-      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\",
-      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
-      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "izrngo8qdo",
-      "Integrity": "bl1Sll6BsS4llCzjKcNcHMwzxdPETwjAAvYwJAQ73Vc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css"
-    },
-    {
       "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\435qo6ats5-aexeepp0ev.gz",
       "SourceId": "one_db_prototype_r2",
       "SourceType": "Discovered",
@@ -248,12 +227,12 @@
       "OriginalItemSpec": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-opahzf2lyr.gz",
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-9ahqufnvjb.gz",
       "SourceId": "one_db_prototype_r2",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/one_db_prototype_r2",
-      "RelativePath": "one_db_prototype_r2#[.{fingerprint=opahzf2lyr}]?.styles.css.gz",
+      "RelativePath": "one_db_prototype_r2#[.{fingerprint=9ahqufnvjb}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -262,8 +241,8 @@
       "RelatedAsset": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\one_db_prototype_r2.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "dew8roopfv",
-      "Integrity": "+449Z1GX5/iO9ivzi/7N161YhxSnhT7oCx8e2GRnTQM=",
+      "Fingerprint": "tqyqwyn68j",
+      "Integrity": "m/W6x2KzQ0iIlX78w28wWWThSoYYaFa8Nl8r1tmnLyA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\one_db_prototype_r2.styles.css"
@@ -519,6 +498,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\fhah6atl6u-25o87uqmvr.gz",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5tqo44gyv3",
+      "Integrity": "R868nQYiRJmInncB4hqIN+LGaLDkdWBhE2rlxj8Iuco=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
     },
     {
       "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\fjm3cwcjc3-sejl45xvog.gz",
@@ -910,14 +910,14 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "RelatedAsset": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "p4818tnj3t",
       "Integrity": "l1TN0xlzfmCvoE1j6NfscfK49JNKk0yWC8evKQzqR0w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js"
+      "OriginalItemSpec": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js"
     },
     {
       "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\v7netsr1fg-fsbi9cje9m.gz",
@@ -1102,8 +1102,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "opahzf2lyr",
-      "Integrity": "hLBr3rtDNZbCngO31vKiVDlAxIhFywUsbnkPmnE/g3Y=",
+      "Fingerprint": "9ahqufnvjb",
+      "Integrity": "AYQ2bXrex8RIqtBCGOjm/G3XYcvd09bB/ykImy3vseA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\one_db_prototype_r2.styles.css"
@@ -1170,6 +1170,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "one_db_prototype_r2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
+      "BasePath": "_content/one_db_prototype_r2",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zub09dkrxp",
+      "Integrity": "CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "one_db_prototype_r2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
+      "BasePath": "_content/one_db_prototype_r2",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pj5nd1wqec",
+      "Integrity": "KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "one_db_prototype_r2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
+      "BasePath": "_content/one_db_prototype_r2",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "43atpzeawx",
+      "Integrity": "sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "one_db_prototype_r2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
+      "BasePath": "_content/one_db_prototype_r2",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v0zj4ognzu",
+      "Integrity": "8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "one_db_prototype_r2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
+      "BasePath": "_content/one_db_prototype_r2",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ynyaa8k90p",
+      "Integrity": "/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "one_db_prototype_r2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
+      "BasePath": "_content/one_db_prototype_r2",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hrwsygsryq",
+      "Integrity": "3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "one_db_prototype_r2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
+      "BasePath": "_content/one_db_prototype_r2",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c63t5i9ira",
+      "Integrity": "rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "one_db_prototype_r2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
+      "BasePath": "_content/one_db_prototype_r2",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ft3s53vfgj",
+      "Integrity": "rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
       "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -1676,174 +1844,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "one_db_prototype_r2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
-      "BasePath": "_content/one_db_prototype_r2",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "zub09dkrxp",
-      "Integrity": "CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
-    },
-    {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "one_db_prototype_r2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
-      "BasePath": "_content/one_db_prototype_r2",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "pj5nd1wqec",
-      "Integrity": "KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "one_db_prototype_r2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
-      "BasePath": "_content/one_db_prototype_r2",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "43atpzeawx",
-      "Integrity": "sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "one_db_prototype_r2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
-      "BasePath": "_content/one_db_prototype_r2",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "v0zj4ognzu",
-      "Integrity": "8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "one_db_prototype_r2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
-      "BasePath": "_content/one_db_prototype_r2",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ynyaa8k90p",
-      "Integrity": "/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
-    },
-    {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "one_db_prototype_r2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
-      "BasePath": "_content/one_db_prototype_r2",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hrwsygsryq",
-      "Integrity": "3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "one_db_prototype_r2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
-      "BasePath": "_content/one_db_prototype_r2",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "c63t5i9ira",
-      "Integrity": "rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
-    },
-    {
-      "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "one_db_prototype_r2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\",
-      "BasePath": "_content/one_db_prototype_r2",
-      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ft3s53vfgj",
-      "Integrity": "rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
-    },
-    {
       "Identity": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "one_db_prototype_r2",
       "SourceType": "Discovered",
@@ -2098,17 +2098,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -2124,97 +2120,11 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 13:29:35 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "25o87uqmvr"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
-        },
-        {
-          "Name": "label",
-          "Value": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
-        }
-      ]
-    },
-    {
-      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\3gin1ph7ub-25o87uqmvr.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2452"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"bl1Sll6BsS4llCzjKcNcHMwzxdPETwjAAvYwJAQ73Vc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 13:29:34 GMT"
+          "Value": "Wed, 01 Nov 2023 01:07:48 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-bl1Sll6BsS4llCzjKcNcHMwzxdPETwjAAvYwJAQ73Vc="
-        }
-      ]
-    },
-    {
-      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "8251"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 13:29:35 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2226,12 +2136,12 @@
     },
     {
       "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\3gin1ph7ub-25o87uqmvr.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\fhah6atl6u-25o87uqmvr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000407664085"
+          "Quality": "0.000405679513"
         }
       ],
       "ResponseHeaders": [
@@ -2241,15 +2151,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2452"
+          "Value": "2464"
         },
         {
           "Name": "ETag",
-          "Value": "\"bl1Sll6BsS4llCzjKcNcHMwzxdPETwjAAvYwJAQ73Vc=\""
+          "Value": "\"R868nQYiRJmInncB4hqIN+LGaLDkdWBhE2rlxj8Iuco=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 13:29:34 GMT"
+          "Value": "Wed, 01 Nov 2023 01:07:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2280,8 +2190,8 @@
       ]
     },
     {
-      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
-      "AssetFile": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\fhah6atl6u-25o87uqmvr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2289,8 +2199,49 @@
           "Value": "bytes"
         },
         {
+          "Name": "Content-Length",
+          "Value": "2464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R868nQYiRJmInncB4hqIN+LGaLDkdWBhE2rlxj8Iuco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Nov 2023 01:07:48 GMT"
+        },
+        {
           "Name": "Cache-Control",
           "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R868nQYiRJmInncB4hqIN+LGaLDkdWBhE2rlxj8Iuco="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
+      "AssetFile": "C:\\Users\\Nesty\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
         },
         {
           "Name": "Content-Length",
@@ -2306,17 +2257,17 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 13:06:47 GMT"
+          "Value": "Wed, 01 Nov 2023 00:50:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
-        },
-        {
-          "Name": "script-type",
-          "Value": "module"
         }
       ]
     },
@@ -2345,7 +2296,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 13:06:46 GMT"
+          "Value": "Wed, 01 Nov 2023 00:50:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2372,10 +2323,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
-        },
-        {
-          "Name": "script-type",
-          "Value": "module"
         }
       ]
     },
@@ -2402,7 +2349,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Oct 2024 13:06:46 GMT"
+          "Value": "Wed, 01 Nov 2023 00:50:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2801,6 +2748,2390 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\dmbm2v610f-zub09dkrxp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029833826"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33518"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\dmbm2v610f-zub09dkrxp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\0flusrc3mn-pj5nd1wqec.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008694896"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115009"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.map.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\0flusrc3mn-pj5nd1wqec.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\0flusrc3mn-pj5nd1wqec.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008694896"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115009"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pj5nd1wqec"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pj5nd1wqec"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\0flusrc3mn-pj5nd1wqec.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "115009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pj5nd1wqec"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.43atpzeawx.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\cuc82juhz3-43atpzeawx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032290355"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30968"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "43atpzeawx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.43atpzeawx.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "43atpzeawx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.43atpzeawx.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\cuc82juhz3-43atpzeawx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "43atpzeawx"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\cuc82juhz3-43atpzeawx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032290355"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30968"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\cuc82juhz3-43atpzeawx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\vp2t1xan7q-v0zj4ognzu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000010892297"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91807"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\vp2t1xan7q-v0zj4ognzu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\vp2t1xan7q-v0zj4ognzu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000010892297"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91807"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0zj4ognzu"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0zj4ognzu"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\vp2t1xan7q-v0zj4ognzu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0zj4ognzu"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\rnxqj9l1op-ynyaa8k90p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029962547"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33374"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\rnxqj9l1op-ynyaa8k90p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\x3hehlpdvd-hrwsygsryq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008699132"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114953"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hrwsygsryq"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hrwsygsryq"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\x3hehlpdvd-hrwsygsryq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hrwsygsryq"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\x3hehlpdvd-hrwsygsryq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000008699132"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114953"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\x3hehlpdvd-hrwsygsryq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.c63t5i9ira.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\crfqtsc7cx-c63t5i9ira.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032266391"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30991"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c63t5i9ira"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.c63t5i9ira.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c63t5i9ira"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.c63t5i9ira.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\crfqtsc7cx-c63t5i9ira.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c63t5i9ira"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\crfqtsc7cx-c63t5i9ira.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032266391"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30991"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\bctk2ymgfb-ft3s53vfgj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000010904769"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91702"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ft3s53vfgj"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ft3s53vfgj"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\bctk2ymgfb-ft3s53vfgj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ft3s53vfgj"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\crfqtsc7cx-c63t5i9ira.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30991"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\bctk2ymgfb-ft3s53vfgj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000010904769"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91702"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\bctk2ymgfb-ft3s53vfgj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ynyaa8k90p.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\rnxqj9l1op-ynyaa8k90p.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029962547"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33374"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ynyaa8k90p"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ynyaa8k90p.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292288"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ynyaa8k90p"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ynyaa8k90p.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\rnxqj9l1op-ynyaa8k90p.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ynyaa8k90p"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.zub09dkrxp.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\dmbm2v610f-zub09dkrxp.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029833826"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33518"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zub09dkrxp"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.zub09dkrxp.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293102"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zub09dkrxp"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.zub09dkrxp.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\dmbm2v610f-zub09dkrxp.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zub09dkrxp"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU="
         }
       ]
     },
@@ -9957,2390 +12288,6 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\dmbm2v610f-zub09dkrxp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000029833826"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33518"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "293102"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\dmbm2v610f-zub09dkrxp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33518"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\0flusrc3mn-pj5nd1wqec.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000008694896"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "115009"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "679755"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.map.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\0flusrc3mn-pj5nd1wqec.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "115009"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\0flusrc3mn-pj5nd1wqec.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000008694896"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "115009"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pj5nd1wqec"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "679755"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pj5nd1wqec"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\0flusrc3mn-pj5nd1wqec.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "115009"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pj5nd1wqec"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css.map.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.43atpzeawx.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\cuc82juhz3-43atpzeawx.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000032290355"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30968"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "43atpzeawx"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.43atpzeawx.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232808"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "43atpzeawx"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.43atpzeawx.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\cuc82juhz3-43atpzeawx.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30968"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "43atpzeawx"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\cuc82juhz3-43atpzeawx.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000032290355"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30968"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232808"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sKIQRfQriISuQ9l/44b1zHfQniGXJhGonVtB2LlSuIs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\cuc82juhz3-43atpzeawx.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30968"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ZA1L2PX1u6VKIuxhJUgeKELAZwIreHb7fDdqlTEZyKs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\vp2t1xan7q-v0zj4ognzu.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000010892297"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91807"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "589892"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\vp2t1xan7q-v0zj4ognzu.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91807"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\vp2t1xan7q-v0zj4ognzu.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000010892297"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91807"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v0zj4ognzu"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "589892"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v0zj4ognzu"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\vp2t1xan7q-v0zj4ognzu.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91807"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "v0zj4ognzu"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\rnxqj9l1op-ynyaa8k90p.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000029962547"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33374"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292288"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\rnxqj9l1op-ynyaa8k90p.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33374"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\x3hehlpdvd-hrwsygsryq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000008699132"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "114953"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hrwsygsryq"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "679615"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hrwsygsryq"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\x3hehlpdvd-hrwsygsryq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "114953"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hrwsygsryq"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\x3hehlpdvd-hrwsygsryq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000008699132"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "114953"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "679615"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\x3hehlpdvd-hrwsygsryq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "114953"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.c63t5i9ira.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\crfqtsc7cx-c63t5i9ira.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000032266391"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30991"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c63t5i9ira"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.c63t5i9ira.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232916"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c63t5i9ira"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.c63t5i9ira.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\crfqtsc7cx-c63t5i9ira.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30991"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c63t5i9ira"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\crfqtsc7cx-c63t5i9ira.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000032266391"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30991"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "232916"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rI1w2GDxZPCr77bpZIGQ8mUvMVtEr+gBtahl5RIPJpA="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\bctk2ymgfb-ft3s53vfgj.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000010904769"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91702"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ft3s53vfgj"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "589087"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ft3s53vfgj"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\bctk2ymgfb-ft3s53vfgj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91702"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ft3s53vfgj"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\crfqtsc7cx-c63t5i9ira.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "30991"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-zxq4fMIq5J99E6EK1H7qVe10DUZ2GcXauY+j6URB7DI="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\bctk2ymgfb-ft3s53vfgj.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000010904769"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91702"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "589087"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\bctk2ymgfb-ft3s53vfgj.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "91702"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ynyaa8k90p.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\rnxqj9l1op-ynyaa8k90p.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000029962547"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33374"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ynyaa8k90p"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ynyaa8k90p.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "292288"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ynyaa8k90p"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/rceNUMI0RlFJugRzjua815bgXwawEJBGBPh4Vx3r38="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.ynyaa8k90p.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\rnxqj9l1op-ynyaa8k90p.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33374"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ynyaa8k90p"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CKd1DZe0tmjYGXJCdpcyExOT7GvFEZKGtk3+Ij7ZTSc="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.zub09dkrxp.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\dmbm2v610f-zub09dkrxp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000029833826"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33518"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zub09dkrxp"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.zub09dkrxp.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "293102"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zub09dkrxp"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
-        }
-      ]
-    },
-    {
-      "Route": "lib/bootstrap/dist/css/bootstrap.zub09dkrxp.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\dmbm2v610f-zub09dkrxp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "33518"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 03:58:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zub09dkrxp"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-j8xOcokVqVMlkhtMkAD+dCGjp8eCK+RXUPREaOqe2TU="
-        }
-      ]
-    },
-    {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.4094rpi4f9.js",
       "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\myne1nd43v-4094rpi4f9.gz",
       "Selectors": [
@@ -15917,6 +15864,175 @@
       ]
     },
     {
+      "Route": "one_db_prototype_r2.9ahqufnvjb.styles.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-9ahqufnvjb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000550660793"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1815"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m/W6x2KzQ0iIlX78w28wWWThSoYYaFa8Nl8r1tmnLyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 00:39:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AYQ2bXrex8RIqtBCGOjm/G3XYcvd09bB/ykImy3vseA=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ahqufnvjb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AYQ2bXrex8RIqtBCGOjm/G3XYcvd09bB/ykImy3vseA="
+        },
+        {
+          "Name": "label",
+          "Value": "one_db_prototype_r2.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "one_db_prototype_r2.9ahqufnvjb.styles.css",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\one_db_prototype_r2.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AYQ2bXrex8RIqtBCGOjm/G3XYcvd09bB/ykImy3vseA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 00:39:09 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ahqufnvjb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AYQ2bXrex8RIqtBCGOjm/G3XYcvd09bB/ykImy3vseA="
+        },
+        {
+          "Name": "label",
+          "Value": "one_db_prototype_r2.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "one_db_prototype_r2.9ahqufnvjb.styles.css.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-9ahqufnvjb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1815"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m/W6x2KzQ0iIlX78w28wWWThSoYYaFa8Nl8r1tmnLyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 00:39:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ahqufnvjb"
+        },
+        {
+          "Name": "label",
+          "Value": "one_db_prototype_r2.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m/W6x2KzQ0iIlX78w28wWWThSoYYaFa8Nl8r1tmnLyA="
+        }
+      ]
+    },
+    {
       "Route": "one_db_prototype_r2.bundle.scp.css",
       "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\25pwq4saus-yf13w5kecj.gz",
       "Selectors": [
@@ -16054,182 +16170,13 @@
       ]
     },
     {
-      "Route": "one_db_prototype_r2.opahzf2lyr.styles.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-opahzf2lyr.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000544069641"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1837"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+449Z1GX5/iO9ivzi/7N161YhxSnhT7oCx8e2GRnTQM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 10:35:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"hLBr3rtDNZbCngO31vKiVDlAxIhFywUsbnkPmnE/g3Y=\""
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "opahzf2lyr"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hLBr3rtDNZbCngO31vKiVDlAxIhFywUsbnkPmnE/g3Y="
-        },
-        {
-          "Name": "label",
-          "Value": "one_db_prototype_r2.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "one_db_prototype_r2.opahzf2lyr.styles.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\scopedcss\\bundle\\one_db_prototype_r2.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6118"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hLBr3rtDNZbCngO31vKiVDlAxIhFywUsbnkPmnE/g3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 10:35:56 GMT"
-        },
-        {
-          "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "opahzf2lyr"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hLBr3rtDNZbCngO31vKiVDlAxIhFywUsbnkPmnE/g3Y="
-        },
-        {
-          "Name": "label",
-          "Value": "one_db_prototype_r2.styles.css"
-        }
-      ]
-    },
-    {
-      "Route": "one_db_prototype_r2.opahzf2lyr.styles.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-opahzf2lyr.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1837"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+449Z1GX5/iO9ivzi/7N161YhxSnhT7oCx8e2GRnTQM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 10:35:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "opahzf2lyr"
-        },
-        {
-          "Name": "label",
-          "Value": "one_db_prototype_r2.styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+449Z1GX5/iO9ivzi/7N161YhxSnhT7oCx8e2GRnTQM="
-        }
-      ]
-    },
-    {
       "Route": "one_db_prototype_r2.styles.css",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-opahzf2lyr.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-9ahqufnvjb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000544069641"
+          "Quality": "0.000550660793"
         }
       ],
       "ResponseHeaders": [
@@ -16239,15 +16186,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1837"
+          "Value": "1815"
         },
         {
           "Name": "ETag",
-          "Value": "\"+449Z1GX5/iO9ivzi/7N161YhxSnhT7oCx8e2GRnTQM=\""
+          "Value": "\"m/W6x2KzQ0iIlX78w28wWWThSoYYaFa8Nl8r1tmnLyA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 10:35:56 GMT"
+          "Value": "Fri, 18 Apr 2025 00:39:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16267,17 +16214,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"hLBr3rtDNZbCngO31vKiVDlAxIhFywUsbnkPmnE/g3Y=\""
+          "Value": "W/\"AYQ2bXrex8RIqtBCGOjm/G3XYcvd09bB/ykImy3vseA=\""
         },
         {
           "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hLBr3rtDNZbCngO31vKiVDlAxIhFywUsbnkPmnE/g3Y="
+          "Value": "sha256-AYQ2bXrex8RIqtBCGOjm/G3XYcvd09bB/ykImy3vseA="
         }
       ]
     },
@@ -16296,7 +16243,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6118"
+          "Value": "6107"
         },
         {
           "Name": "Content-Type",
@@ -16304,27 +16251,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hLBr3rtDNZbCngO31vKiVDlAxIhFywUsbnkPmnE/g3Y=\""
+          "Value": "\"AYQ2bXrex8RIqtBCGOjm/G3XYcvd09bB/ykImy3vseA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 10:35:56 GMT"
+          "Value": "Fri, 18 Apr 2025 00:39:09 GMT"
         },
         {
           "Name": "Link",
-          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hLBr3rtDNZbCngO31vKiVDlAxIhFywUsbnkPmnE/g3Y="
+          "Value": "sha256-AYQ2bXrex8RIqtBCGOjm/G3XYcvd09bB/ykImy3vseA="
         }
       ]
     },
     {
       "Route": "one_db_prototype_r2.styles.css.gz",
-      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-opahzf2lyr.gz",
+      "AssetFile": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_r2\\one_db_prototype_r2\\obj\\Debug\\net9.0\\compressed\\73hyl26zg7-9ahqufnvjb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -16333,7 +16280,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1837"
+          "Value": "1815"
         },
         {
           "Name": "Content-Type",
@@ -16341,11 +16288,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+449Z1GX5/iO9ivzi/7N161YhxSnhT7oCx8e2GRnTQM=\""
+          "Value": "\"m/W6x2KzQ0iIlX78w28wWWThSoYYaFa8Nl8r1tmnLyA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 17 Apr 2025 10:35:56 GMT"
+          "Value": "Fri, 18 Apr 2025 00:39:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -16363,7 +16310,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+449Z1GX5/iO9ivzi/7N161YhxSnhT7oCx8e2GRnTQM="
+          "Value": "sha256-m/W6x2KzQ0iIlX78w28wWWThSoYYaFa8Nl8r1tmnLyA="
         }
       ]
     },

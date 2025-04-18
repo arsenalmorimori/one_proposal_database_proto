@@ -16,6 +16,9 @@ namespace one_db_prototype_chilibean.Model {
         [Column("activity_overall_status")]
         public string activity_overall_status { get; set; } = "pending";
 
+
+        public bool is_draft { get; set; }
+
         [Required]
         [StringLength(50)]
         [Column("admin_1_status")]

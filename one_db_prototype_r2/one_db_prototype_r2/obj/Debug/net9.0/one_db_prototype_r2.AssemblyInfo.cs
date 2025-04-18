@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("one_db_prototype_r2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83b660694737372ecf269c9b12fdd7862df1af1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3fcbd5a0947f4134a3fe3271b4d78526ac60eb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("one_db_prototype_r2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("one_db_prototype_r2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

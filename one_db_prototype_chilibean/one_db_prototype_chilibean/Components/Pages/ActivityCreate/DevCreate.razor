@@ -1,0 +1,382 @@
+﻿@page "/activities/dev_create"
+@page "/activities/dev_create/{ClubId:int}"
+@using Microsoft.EntityFrameworkCore
+@using MySqlConnector
+@using one_db_prototype_chilibean.Model
+@using one_db_prototype_chilibean.Data
+@inject AppDbContext DbContext
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
+<h3>DEV Create New Activity</h3>
+
+<EditForm Model="@activity.Profile" OnValidSubmit="@HandleValidSubmit2">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="title">Activity Title:</label>
+        <InputText id="title" @bind-Value="@activity.Profile.activity_title" class="form-control" />
+        <ValidationMessage For="@(() => activity.Profile.activity_title)" />
+    </div>
+
+    <div class="form-group">
+        <label for="club">Club:</label>
+        <InputSelect id="club" @bind-Value="@activity.Profile.club_id" class="form-control">
+            <option value="">Select a club</option>
+            @foreach (var club in clubs)
+            {
+                <option value="@club.club_id">@club.club_name</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="@(() => activity.Profile.club_id)" />
+    </div>
+
+    <div class="form-group">
+        <label for="personInCharge">Person In Charge:</label>
+        <InputText id="personInCharge" @bind-Value="@activity.Profile.person_in_charge" class="form-control" />
+        <ValidationMessage For="@(() => activity.Profile.person_in_charge)" />
+    </div>
+
+    <h4>Activity Brief</h4>
+    <div class="form-group">
+        <label for="briefDesc">Brief Description:</label>
+        <InputTextArea id="briefDesc" @bind-Value="@activity.Brief.activity_brief_description" class="form-control" />
+        <ValidationMessage For="@(() => activity.Brief.activity_brief_description)" />
+    </div>
+
+    <div class="form-group">
+        <label for="activityDate">Date:</label>
+        <InputDate id="activityDate" @bind-Value="@activity.Brief.activity_date" class="form-control" />
+        <ValidationMessage For="@(() => activity.Brief.activity_date)" />
+    </div>
+
+    <h4>Activity Details</h4>
+    <div class="form-group">
+        <label for="rationale">Rationale:</label>
+        <InputTextArea id="rationale" @bind-Value="@activity.Detail.activity_rationale" class="form-control" />
+        <ValidationMessage For="@(() => activity.Detail.activity_rationale)" />
+    </div>
+
+    <div class="form-group">
+        <label for="objectives">Objectives:</label>
+        <InputTextArea id="objectives" @bind-Value="@activity.Detail.activity_objectives" class="form-control" />
+        <ValidationMessage For="@(() => activity.Detail.activity_objectives)" />
+    </div>
+
+    <div class="form-group">
+        <label for="activityType">Activity Type:</label>
+        <InputText id="activityType" @bind-Value="@activity.Detail.activity_activity_type" class="form-control" />
+        <ValidationMessage For="@(() => activity.Detail.activity_activity_type)" />
+    </div>
+
+    <div class="form-group">
+        <label for="activityReach">Activity Reach:</label>
+        <InputText id="activityReach" @bind-Value="@activity.Detail.activity_activity_reach" class="form-control" />
+        <ValidationMessage For="@(() => activity.Detail.activity_activity_reach)" />
+    </div>
+
+    <h4>Reviewer Remarks</h4>
+    <div class="card mt-3">
+        <div class="card-header">
+            <h5>Reviewer Remarks</h5>
+        </div>
+        <div class="card-body">
+            <!-- Activity Date Remarks -->
+            <div class="form-group">
+                <label for="dateRemark">Date Remarks</label>
+                <InputTextArea id="dateRemark"
+                               @bind-Value="@activity.Remarks.activity_date_remark"
+                               class="form-control"
+                               placeholder="Enter date remarks (if any)" />
+            </div>
+
+            <!-- Brief Description Remarks -->
+            <div class="form-group">
+                <label for="briefDescRemark">Brief Description Remarks</label>
+                <InputTextArea id="briefDescRemark"
+                               @bind-Value="@activity.Remarks.activity_brief_description_remark"
+                               class="form-control"
+                               placeholder="Enter brief description remarks" />
+            </div>
+
+            <!-- Rationale Remarks -->
+            <div class="form-group">
+                <label for="rationaleRemark">Rationale Remarks</label>
+                <InputTextArea id="rationaleRemark"
+                               @bind-Value="@activity.Remarks.rationale_remark"
+                               class="form-control"
+                               placeholder="Enter rationale remarks" />
+            </div>
+
+            <!-- Objectives Remarks -->
+            <div class="form-group">
+                <label for="objectivesRemark">Objectives Remarks</label>
+                <InputTextArea id="objectivesRemark"
+                               @bind-Value="@activity.Remarks.objectives_remark"
+                               class="form-control"
+                               placeholder="Enter objectives remarks" />
+            </div>
+
+            <!-- Activity Type Remarks -->
+            <div class="form-group">
+                <label for="typeRemark">Activity Type Remarks</label>
+                <InputTextArea id="typeRemark"
+                               @bind-Value="@activity.Remarks.activity_type_remark"
+                               class="form-control"
+                               placeholder="Enter activity type remarks" />
+            </div>
+
+            <!-- Activity Reach Remarks -->
+            <div class="form-group">
+                <label for="reachRemark">Activity Reach Remarks</label>
+                <InputTextArea id="reachRemark"
+                               @bind-Value="@activity.Remarks.activity_reach_remark"
+                               class="form-control"
+                               placeholder="Enter reach remarks" />
+            </div>
+        </div>
+    </div>
+
+    <h4>Budget Items</h4>
+    @for (var i = 0; i < activity.BudgetPlans.Count; i++)
+    {
+        var index = i;
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="form-group">
+                    <label>Item Name:</label>
+                    <InputText @bind-Value="@activity.BudgetPlans[index].item_name" class="form-control" />
+                    <ValidationMessage For="@(() => activity.BudgetPlans[index].item_name)" />
+                </div>
+                <div class="form-group">
+                    <label>Price:</label>
+                    <InputNumber @bind-Value="@activity.BudgetPlans[index].price" class="form-control" />
+                    <ValidationMessage For="@(() => activity.BudgetPlans[index].price)" />
+                </div>
+                <div class="form-group">
+                    <label>Quantity:</label>
+                    <InputNumber @bind-Value="@activity.BudgetPlans[index].quantity" class="form-control" />
+                    <ValidationMessage For="@(() => activity.BudgetPlans[index].quantity)" />
+                </div>
+                <button type="button" class="btn btn-danger" @onclick="() => RemoveBudgetItem(index)">Remove</button>
+            </div>
+        </div>
+    }
+    <button type="button" class="btn btn-secondary mb-3" @onclick="AddBudgetItem">Add Budget Item</button>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" @onclick="() => SaveAsDraft()" class="btn btn-secondary">Save as Draft</button>
+        <button type="button" @onclick="Cancel" class="btn btn-secondary">Cancel</button>
+    </div>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int? ClubId { get; set; }
+
+    private ActivityViewModel activity = new ActivityViewModel
+        {
+            Profile = new ActivityProfile
+            {
+                activity_id = Guid.NewGuid(),
+                person_in_charge = ""
+            },
+            Brief = new ActivityBrief(),
+            Detail = new ActivityDetail(),
+            Status = new ActivityStatus(),
+            Remarks = new RemarksActivity(),
+            BudgetPlans = new List<ActivityBudgetPlan>()
+        };
+
+    private List<Club> clubs = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        clubs = await DbContext.club_main_tbl.ToListAsync();
+
+        if (ClubId.HasValue)
+        {
+            activity.Profile.club_id = ClubId.Value;
+        }
+
+        // Add one empty budget item by default
+        AddBudgetItem();
+    }
+
+    private void AddBudgetItem()
+    {
+        activity.BudgetPlans.Add(new ActivityBudgetPlan
+            {
+                activity_id = activity.Profile.activity_id
+            });
+    }
+
+    private void RemoveBudgetItem(int index)
+    {
+        activity.BudgetPlans.RemoveAt(index);
+    }
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo("/activities");
+    }
+
+    private async Task HandleValidSubmit2()
+    {
+        try
+        {
+            using var transaction = await DbContext.Database.BeginTransactionAsync();
+
+            try
+            {
+                // Add main profile
+                DbContext.activity_profile_tbl.Add(activity.Profile);
+
+                // Set activity IDs for related entities
+                activity.Brief.activity_id = activity.Profile.activity_id;
+                activity.Detail.activity_id = activity.Profile.activity_id;
+                activity.Status.activity_id = activity.Profile.activity_id;
+                activity.Remarks.activity_id = activity.Profile.activity_id;
+
+                // Set default status values
+                activity.Status.activity_overall_status = "pending";
+                activity.Status.admin_1_status = "pending";
+                activity.Status.admin_2_status = "pending";
+                activity.Status.admin_3_status = "pending";
+                activity.Status.checked_date = DateTime.Now;
+
+                // Add related entities
+                DbContext.activity_brief_tbl.Add(activity.Brief);
+                DbContext.activity_detail_tbl.Add(activity.Detail);
+                DbContext.activity_status_tbl.Add(activity.Status);
+                DbContext.remarks_activity_tbl.Add(activity.Remarks);
+
+                // Add budget items
+                foreach (var budget in activity.BudgetPlans.Where(b => !string.IsNullOrWhiteSpace(b.item_name)))
+                {
+                    budget.activity_id = activity.Profile.activity_id;
+                    DbContext.activity_budget_plan_tbl.Add(budget);
+                }
+
+                // Save all changes
+                await DbContext.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                Navigation.NavigateTo($"/activities/dev_details/{activity.Profile.activity_id}");
+            }
+            catch (DbUpdateException dbEx)
+            {
+                await transaction.RollbackAsync();
+                var errorMessage = dbEx.InnerException?.Message ?? dbEx.Message;
+                await JSRuntime.InvokeVoidAsync("alert",
+                    $"Database error: {errorMessage}");
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                await JSRuntime.InvokeVoidAsync("alert",
+                    $"Error: {ex.Message}");
+            }
+        }
+        catch (Exception ex)
+        {
+            await JSRuntime.InvokeVoidAsync("alert",
+                $"Transaction error: {ex.Message}");
+        }
+    }
+
+
+
+    private async Task SaveAsDraft()
+    {
+        try
+        {
+            using var transaction = await DbContext.Database.BeginTransactionAsync();
+
+            try
+            {
+                // Set default values for empty/null strings in the profile
+                activity.Profile.activity_title ??= "";
+                activity.Profile.person_in_charge ??= "";
+
+                // First save the main profile to generate the ID
+                DbContext.activity_profile_tbl.Add(activity.Profile);
+                await DbContext.SaveChangesAsync(); // This generates the activity_id
+
+                // Now set the activity_id for all child entities
+                var activityId = activity.Profile.activity_id;
+
+                // Initialize and set default values for Brief
+                activity.Brief ??= new ActivityBrief();
+                activity.Brief.activity_id = activityId;
+                activity.Brief.activity_brief_description ??= "";
+
+                // Initialize and set default values for Detail
+                activity.Detail ??= new ActivityDetail();
+                activity.Detail.activity_id = activityId;
+                activity.Detail.activity_rationale ??= "";
+                activity.Detail.activity_objectives ??= "";
+                activity.Detail.activity_activity_type ??= "";
+                activity.Detail.activity_activity_reach ??= "";
+
+                // Initialize and set status (always true for draft)
+                activity.Status ??= new ActivityStatus();
+                activity.Status.activity_id = activityId;
+                activity.Status.activity_overall_status = "draft";
+
+                // Initialize and set default values for Remarks
+                activity.Remarks ??= new RemarksActivity();
+                activity.Remarks.activity_id = activityId;
+                activity.Remarks.activity_title_remark ??= "";
+                activity.Remarks.activity_brief_description_remark ??= "";
+                activity.Remarks.rationale_remark ??= "";
+                activity.Remarks.objectives_remark ??= "";
+                activity.Remarks.activity_type_remark ??= "";
+                activity.Remarks.activity_date_remark ??= "";
+                activity.Remarks.activity_reach_remark ??= "";
+                activity.Remarks.activity_budget_remark ??= "";
+
+                // Add all child entities
+                DbContext.activity_brief_tbl.Add(activity.Brief);
+                DbContext.activity_detail_tbl.Add(activity.Detail);
+                DbContext.activity_status_tbl.Add(activity.Status);
+                DbContext.remarks_activity_tbl.Add(activity.Remarks);
+
+                // Handle budget items
+                var existingBudgets = await DbContext.activity_budget_plan_tbl
+                    .Where(b => b.activity_id == activityId)
+                    .ToListAsync();
+
+                DbContext.activity_budget_plan_tbl.RemoveRange(existingBudgets);
+
+                foreach (var budget in activity.BudgetPlans)
+                {
+                    budget.activity_id = activityId;
+                    budget.item_name ??= "";
+                    DbContext.activity_budget_plan_tbl.Add(budget);
+                }
+
+                await DbContext.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                Navigation.NavigateTo($"/activities/dev_edit/{activityId}");
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                await JSRuntime.InvokeVoidAsync("alert", $"Error: {ex.Message}");
+                Console.WriteLine(ex.ToString()); // Log the full error
+            }
+        }
+        catch (Exception ex)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", $"Transaction error: {ex.Message}");
+            Console.WriteLine(ex.ToString()); // Log the full error
+        }
+    }
+
+
+
+}

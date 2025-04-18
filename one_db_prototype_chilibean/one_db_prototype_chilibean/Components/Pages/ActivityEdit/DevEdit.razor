@@ -1,0 +1,503 @@
+﻿@page "/activities/dev_edit/{ActivityId:guid}"
+@using Microsoft.EntityFrameworkCore
+@using MySqlConnector
+@using one_db_prototype_chilibean.Model
+@using one_db_prototype_chilibean.Data
+@inject AppDbContext DbContext
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
+<h3>DEV Edit Activity</h3>
+
+@if (activity == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <EditForm Model="@activity.Profile" OnValidSubmit="@HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label for="title">Activity Title:</label>
+            <InputText id="title" @bind-Value="@activity.Profile.activity_title" class="form-control" />
+            <ValidationMessage For="@(() => activity.Profile.activity_title)" />
+        </div>
+
+        <div class="form-group">
+            <label>Club:</label>
+            <label >@activity.Club.club_name</label>
+
+        </div>
+
+
+        <h4>pERSON IN CHARGE</h4>
+        <div class="form-group">
+            <InputTextArea id="briefDesc" @bind-Value="@activity.Profile.person_in_charge" class="form-control" />
+        </div>
+
+        <h4>Activity Brief</h4>
+        <div class="form-group">
+            <label for="briefDesc">Brief Description:</label>
+            <InputTextArea id="briefDesc" @bind-Value="@activity.Brief.activity_brief_description" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="activityDate">Date:</label>
+            <InputDate id="activityDate" @bind-Value="@activity.Brief.activity_date" class="form-control" />
+        </div>
+
+        <h4>Activity Details</h4>
+        <div class="form-group">
+            <label for="rationale">Rationale:</label>
+            <InputTextArea id="rationale" @bind-Value="@activity.Detail.activity_rationale" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="objectives">Objectives:</label>
+            <InputTextArea id="objectives" @bind-Value="@activity.Detail.activity_objectives" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="activityType">Activity Type:</label>
+            <InputText id="activityType" @bind-Value="@activity.Detail.activity_activity_type" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="activityReach">Activity Reach:</label>
+            <InputText id="activityReach" @bind-Value="@activity.Detail.activity_activity_reach" class="form-control" />
+        </div>
+
+
+
+
+
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <h5>Reviewer Remarks</h5>
+            </div>
+            <div class="card-body">
+                <!-- Activity Date Remarks -->
+                <div class="form-group">
+                    <label for="dateRemark">Date Remarks</label>
+                    <InputTextArea id="dateRemark"
+                    @bind-Value="@activity.Remarks.activity_date_remark"
+                    class="form-control"
+                    placeholder="Enter date remarks (if any)" />
+                </div>
+
+                <!-- Brief Description Remarks -->
+                <div class="form-group">
+                    <label for="briefDescRemark">Brief Description Remarks</label>
+                    <InputTextArea id="briefDescRemark"
+                    @bind-Value="@activity.Remarks.activity_brief_description_remark"
+                    class="form-control"
+                    placeholder="Enter brief description remarks" />
+                </div>
+
+                <!-- Rationale Remarks -->
+                <div class="form-group">
+                    <label for="rationaleRemark">Rationale Remarks</label>
+                    <InputTextArea id="rationaleRemark"
+                    @bind-Value="@activity.Remarks.rationale_remark"
+                    class="form-control"
+                    placeholder="Enter rationale remarks" />
+                </div>
+
+                <!-- Objectives Remarks -->
+                <div class="form-group">
+                    <label for="objectivesRemark">Objectives Remarks</label>
+                    <InputTextArea id="objectivesRemark"
+                    @bind-Value="@activity.Remarks.objectives_remark"
+                    class="form-control"
+                    placeholder="Enter objectives remarks" />
+                </div>
+
+                <!-- Activity Type Remarks -->
+                <div class="form-group">
+                    <label for="typeRemark">Activity Type Remarks</label>
+                    <InputTextArea id="typeRemark"
+                    @bind-Value="@activity.Remarks.activity_type_remark"
+                    class="form-control"
+                    placeholder="Enter activity type remarks" />
+                </div>
+
+                <!-- Activity Reach Remarks -->
+                <div class="form-group">
+                    <label for="reachRemark">Activity Reach Remarks</label>
+                    <InputTextArea id="reachRemark"
+                    @bind-Value="@activity.Remarks.activity_reach_remark"
+                    class="form-control"
+                    placeholder="Enter reach remarks" />
+                </div>
+            </div>
+        </div>
+
+        <h4>Budget Items</h4>
+        @for (var i = 0; i < activity.BudgetPlans.Count; i++)
+        {
+            var index = i;
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label>Item Name:</label>
+                        <InputText @bind-Value="@activity.BudgetPlans[index].item_name" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Price:</label>
+                        <InputNumber @bind-Value="@activity.BudgetPlans[index].price" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Quantity:</label>
+                        <InputNumber @bind-Value="@activity.BudgetPlans[index].quantity" class="form-control" />
+                    </div>
+                    <button type="button" class="btn btn-danger" @onclick="() => RemoveBudgetItem(index)">Remove</button>
+                </div>
+            </div>
+        }
+        <button type="button" class="btn btn-secondary mb-3" @onclick="AddBudgetItem">Add Budget Item</button>
+
+
+
+
+
+
+
+
+
+        <div class="form-group">
+            @if (activity.Status?.activity_overall_status == "draft")
+            {
+
+                <button type="submit" @onclick="Submit" class="btn btn-primary">Save as draft</button>
+                @code {
+                    private void Submit()
+                    {
+                        activity.Status.activity_overall_status = "draft";
+                    }
+                    }
+            }
+            <button type="button" @onclick="Check" class="btn btn-primary">Save</button>
+
+            
+            @code {
+        private async Task Check()
+        {
+            if (string.IsNullOrWhiteSpace(activity.Profile.activity_title))
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "Activity Title is required.");
+            }
+            else if (string.IsNullOrWhiteSpace(activity.Profile.person_in_charge))
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "Person in Charge is required.");
+            }
+            else if (string.IsNullOrWhiteSpace(activity.Brief.activity_brief_description))
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "Brief Description is required.");
+            }
+            else if (activity.Brief.activity_date == default)
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "Activity Date is required.");
+            }
+            else if (string.IsNullOrWhiteSpace(activity.Detail.activity_rationale))
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "Rationale is required.");
+            }
+            else if (string.IsNullOrWhiteSpace(activity.Detail.activity_objectives))
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "Objectives are required.");
+            }
+            else if (string.IsNullOrWhiteSpace(activity.Detail.activity_activity_type))
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "Activity Type is required.");
+            }
+            else if (string.IsNullOrWhiteSpace(activity.Detail.activity_activity_reach))
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "Activity Reach is required.");
+            }
+            else
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "✅ All required fields are filled. Ready to submit!");
+                activity.Status.activity_overall_status = "pending";
+                // If all checks passed
+                await HandleValidSubmit();
+
+                }
+        }
+            }
+            <button type="button" @onclick="Cancel" class="btn btn-secondary">Cancel</button>
+        </div>
+    </EditForm>
+
+
+
+
+
+
+
+
+
+}
+
+@code {
+    [Parameter]
+    public Guid ActivityId { get; set; }
+
+    private ActivityViewModel activity;
+    private List<Club> clubs = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        clubs = await DbContext.club_main_tbl.ToListAsync();
+        await LoadActivity();
+    }
+
+    private async Task LoadActivity()
+    {
+        var profile = await DbContext.activity_profile_tbl
+            .Include(p => p.Club)
+            .Include(p => p.ActivityBrief)
+            .Include(p => p.ActivityDetail)
+            .Include(p => p.ActivityStatus)
+            .Include(p => p.RemarksActivity)
+            .Include(p => p.ActivityBudgetPlans)
+            .FirstOrDefaultAsync(p => p.activity_id == ActivityId);
+
+        if (profile != null)
+        {
+            activity = new ActivityViewModel
+                {
+                    Profile = profile,
+                    Club = profile.Club,
+                    Brief = profile.ActivityBrief ?? new ActivityBrief { activity_id = profile.activity_id },
+                    Detail = profile.ActivityDetail ?? new ActivityDetail { activity_id = profile.activity_id },
+                    Status = profile.ActivityStatus ?? new ActivityStatus { activity_id = profile.activity_id },
+                    Remarks = profile.RemarksActivity ?? new RemarksActivity { activity_id = profile.activity_id },
+                    BudgetPlans = profile.ActivityBudgetPlans?.ToList() ?? new List<ActivityBudgetPlan>()
+                };
+        }
+    }
+
+    private void AddBudgetItem()
+    {
+        activity.BudgetPlans.Add(new ActivityBudgetPlan
+            {
+                activity_id = activity.Profile.activity_id
+            });
+    }
+
+    private void RemoveBudgetItem(int index)
+    {
+        activity.BudgetPlans.RemoveAt(index);
+    }
+
+
+
+    private void Cancel()
+    {
+        Navigation.NavigateTo($"/activities/dev_details/{activity.Profile.activity_id}");
+    }
+}
+
+
+
+
+
+
+
+
+@code {
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            using var transaction = await DbContext.Database.BeginTransactionAsync();
+            try
+            {
+                // First, reload the activity to ensure we have the latest version
+                var existingActivity = await DbContext.activity_profile_tbl
+                    .Include(p => p.ActivityBrief)
+                    .Include(p => p.ActivityDetail)
+                    .Include(p => p.ActivityStatus)
+                    .Include(p => p.RemarksActivity)
+                    .Include(p => p.ActivityBudgetPlans)
+                    .FirstOrDefaultAsync(p => p.activity_id == ActivityId);
+
+                if (existingActivity == null)
+                {
+                    throw new Exception("Activity not found");
+                }
+
+                // Update main profile properties
+                existingActivity.activity_title = activity.Profile.activity_title;
+                existingActivity.club_id = activity.Profile.club_id;
+                DbContext.activity_profile_tbl.Update(existingActivity);
+
+                // Handle ActivityBrief
+                if (existingActivity.ActivityBrief == null)
+                {
+                    existingActivity.ActivityBrief = new ActivityBrief
+                        {
+                            activity_id = existingActivity.activity_id,
+                            activity_brief_description = activity.Brief.activity_brief_description,
+                            activity_date = activity.Brief.activity_date
+                        };
+                    DbContext.activity_brief_tbl.Add(existingActivity.ActivityBrief);
+                }
+                else
+                {
+                    existingActivity.ActivityBrief.activity_brief_description = activity.Brief.activity_brief_description;
+                    existingActivity.ActivityBrief.activity_date = activity.Brief.activity_date;
+                    DbContext.activity_brief_tbl.Update(existingActivity.ActivityBrief);
+                }
+
+
+
+
+                // Handle ActivityDetail
+                if (existingActivity.ActivityDetail == null)
+                {
+                    existingActivity.ActivityDetail = new ActivityDetail
+                        {
+                            activity_id = existingActivity.activity_id,
+                            activity_rationale = activity.Detail.activity_rationale,
+                            activity_objectives = activity.Detail.activity_objectives,
+                            activity_activity_type = activity.Detail.activity_activity_type,
+                            activity_activity_reach = activity.Detail.activity_activity_reach
+                        };
+                    DbContext.activity_detail_tbl.Add(existingActivity.ActivityDetail);
+                }
+                else
+                {
+                    existingActivity.ActivityDetail.activity_rationale = activity.Detail.activity_rationale;
+                    existingActivity.ActivityDetail.activity_objectives = activity.Detail.activity_objectives;
+                    existingActivity.ActivityDetail.activity_activity_type = activity.Detail.activity_activity_type;
+                    existingActivity.ActivityDetail.activity_activity_reach = activity.Detail.activity_activity_reach;
+                    DbContext.activity_detail_tbl.Update(existingActivity.ActivityDetail);
+                }
+
+
+
+
+
+
+                // Handle ActivityStatus
+                if (existingActivity.ActivityStatus == null)
+                {
+                    existingActivity.ActivityStatus = new ActivityStatus
+                        {
+                            activity_id = existingActivity.activity_id,
+                            activity_overall_status = activity.Status?.activity_overall_status ?? "pending",
+                            admin_1_status = activity.Status?.admin_1_status ?? "pending",
+                            admin_2_status = activity.Status?.admin_2_status ?? "pending",
+                            admin_3_status = activity.Status?.admin_3_status ?? "pending",
+                            checked_date = activity.Status?.checked_date ?? DateTime.Now
+                        };
+                    DbContext.activity_status_tbl.Add(existingActivity.ActivityStatus);
+                }
+                else
+                {
+                    // Only update status fields if they were modified in the form
+                    if (activity.Status != null)
+                    {
+                        existingActivity.ActivityStatus.activity_overall_status = activity.Status.activity_overall_status;
+                        existingActivity.ActivityStatus.admin_1_status = activity.Status.admin_1_status;
+                        existingActivity.ActivityStatus.admin_2_status = activity.Status.admin_2_status;
+                        existingActivity.ActivityStatus.admin_3_status = activity.Status.admin_3_status;
+                        existingActivity.ActivityStatus.checked_date = activity.Status.checked_date;
+                    }
+                    DbContext.activity_status_tbl.Update(existingActivity.ActivityStatus);
+                }
+
+                // Handle Budget Items
+                var existingBudgets = await DbContext.activity_budget_plan_tbl
+                    .Where(b => b.activity_id == existingActivity.activity_id)
+                    .ToListAsync();
+
+                DbContext.activity_budget_plan_tbl.RemoveRange(existingBudgets);
+                await DbContext.SaveChangesAsync(); // Commit deletions before adding new ones
+
+                foreach (var budget in activity.BudgetPlans.Where(b => !string.IsNullOrWhiteSpace(b.item_name)))
+                {
+                    DbContext.activity_budget_plan_tbl.Add(new ActivityBudgetPlan
+                        {
+                            activity_id = existingActivity.activity_id,
+                            item_name = budget.item_name,
+                            price = budget.price,
+                            quantity = budget.quantity
+                        });
+                }
+
+                // Handle RemarksActivity
+                if (existingActivity.RemarksActivity == null)
+                {
+                    existingActivity.RemarksActivity = new RemarksActivity
+                        {
+                            activity_id = existingActivity.activity_id,
+                            activity_title_remark = activity.Remarks?.activity_title_remark,
+                            activity_brief_description_remark = activity.Remarks?.activity_brief_description_remark,
+                            rationale_remark = activity.Remarks?.rationale_remark,
+                            objectives_remark = activity.Remarks?.objectives_remark,
+                            activity_type_remark = activity.Remarks?.activity_type_remark,
+                            activity_date_remark = activity.Remarks?.activity_date_remark,
+                            activity_reach_remark = activity.Remarks?.activity_reach_remark,
+                            activity_budget_remark = activity.Remarks?.activity_budget_remark
+                        };
+                    DbContext.remarks_activity_tbl.Add(existingActivity.RemarksActivity);
+                }
+                else
+                {
+                    if (activity.Remarks != null)
+                    {
+                        existingActivity.RemarksActivity.activity_title_remark = activity.Remarks.activity_title_remark;
+                        existingActivity.RemarksActivity.activity_brief_description_remark = activity.Remarks.activity_brief_description_remark;
+                        existingActivity.RemarksActivity.rationale_remark = activity.Remarks.rationale_remark;
+                        existingActivity.RemarksActivity.objectives_remark = activity.Remarks.objectives_remark;
+                        existingActivity.RemarksActivity.activity_type_remark = activity.Remarks.activity_type_remark;
+                        existingActivity.RemarksActivity.activity_date_remark = activity.Remarks.activity_date_remark;
+                        existingActivity.RemarksActivity.activity_reach_remark = activity.Remarks.activity_reach_remark;
+                        existingActivity.RemarksActivity.activity_budget_remark = activity.Remarks.activity_budget_remark;
+                    }
+                    DbContext.remarks_activity_tbl.Update(existingActivity.RemarksActivity);
+                }
+
+                // Save all changes
+                await DbContext.SaveChangesAsync();
+                await transaction.CommitAsync();
+
+                Navigation.NavigateTo($"/activities/dev_details/{existingActivity.activity_id}");
+            }
+            catch (DbUpdateConcurrencyException ex)
+            {
+                await transaction.RollbackAsync();
+                await JSRuntime.InvokeVoidAsync("alert",
+                    "This record was modified by another user. Please refresh and try again.");
+            }
+            catch (DbUpdateException dbEx)
+            {
+                await transaction.RollbackAsync();
+                var errorMessage = dbEx.InnerException?.Message ?? dbEx.Message;
+                await JSRuntime.InvokeVoidAsync("alert",
+                    $"Database error: {errorMessage}");
+            }
+            catch (Exception ex)
+            {
+                await transaction.RollbackAsync();
+                await JSRuntime.InvokeVoidAsync("alert",
+                    $"Error: {ex.Message}");
+            }
+        }
+        catch (Exception ex)
+        {
+            await JSRuntime.InvokeVoidAsync("alert",
+                $"Transaction error: {ex.Message}");
+        }
+    }
+    
+    
+    
+    
+    }

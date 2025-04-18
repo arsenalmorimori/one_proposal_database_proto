@@ -12,6 +12,9 @@ namespace one_db_prototype_chilibean.Model {
         [Required]
         [Column("club_id")]
         public int club_id { get; set; }
+        [Required]
+        [Column("person_in_charge")]
+        public string person_in_charge { get; set; }
 
         [Required]
         [StringLength(150)]

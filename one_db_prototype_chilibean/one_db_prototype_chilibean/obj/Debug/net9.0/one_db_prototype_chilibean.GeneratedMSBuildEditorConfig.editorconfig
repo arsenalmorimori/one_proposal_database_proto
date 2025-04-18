@@ -32,6 +32,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/ActivityCreate/DevCreate.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY3Rpdml0eUNyZWF0ZVxEZXZDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/ActivityEdit/DevEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY3Rpdml0eUVkaXRcRGV2RWRpdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Nesty/Programming/ASP/one_proposal_database_proto/one_db_prototype_chilibean/one_db_prototype_chilibean/Components/Pages/ActivityView/DevView.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xBY3Rpdml0eVZpZXdcRGV2Vmlldy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
