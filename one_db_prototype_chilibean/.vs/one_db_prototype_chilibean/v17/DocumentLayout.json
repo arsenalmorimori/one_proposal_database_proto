@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "one_db_prototype_chilibean\\Program.cs",
               "ToolTip": "C:\\Users\\Nesty\\Programming\\ASP\\one_proposal_database_proto\\one_db_prototype_chilibean\\one_db_prototype_chilibean\\Program.cs",
               "RelativeToolTip": "one_db_prototype_chilibean\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T06:21:30.551Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "one_db_prototype_chilibean\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-18T06:21:21.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T06:21:21.103Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "one_db_prototype_chilibean\\Model\\ActivityBrief.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T05:20:37.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T05:20:37.672Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "one_db_prototype_chilibean\\Components\\Pages\\ActivityEdit\\DevEdit.razor",
               "ViewState": "AgIAABYBAAAAAAAAAAAmwCsBAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T00:46:15.279Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T00:46:15.279Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "one_db_prototype_chilibean\\Components\\Pages\\ActivityCreate\\DevCreate.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T02:35:48.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T02:35:48.485Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "one_db_prototype_chilibean\\Components\\Pages\\Activity\\AllActivityData.razor",
               "ViewState": "AgIAADoAAAAAAAAAAAAAAFkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T17:11:46.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T17:11:46.824Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "one_db_prototype_chilibean\\Components\\Pages\\ActivityView\\DevView.razor",
               "ViewState": "AgIAAE4AAAAAAAAAAAAYwA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T00:41:51.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T00:41:51.82Z"
             }
           ]
         },
