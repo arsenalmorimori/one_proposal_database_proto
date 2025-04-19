@@ -7,6 +7,7 @@
 @inject AppDbContext DbContext
 @inject NavigationManager Navigation
 @inject IJSRuntime JSRuntime
+@inject SqliteDbContext SqliteDb
 
 <h3>DEV Create New Activity</h3>
 
@@ -84,6 +85,14 @@
         <div class="card-body">
             <!-- Activity Date Remarks -->
             <div class="form-group">
+                <label for="titleRemark">Title Remarks</label>
+                <InputTextArea id="titleRemark"
+                               @bind-Value="@activity.Remarks.activity_title_remark"
+                               class="form-control"
+                               placeholder="Enter date remarks (if any)" />
+            </div>   
+            
+            <div class="form-group">
                 <label for="dateRemark">Date Remarks</label>
                 <InputTextArea id="dateRemark"
                                @bind-Value="@activity.Remarks.activity_date_remark"
@@ -132,6 +141,15 @@
                 <label for="reachRemark">Activity Reach Remarks</label>
                 <InputTextArea id="reachRemark"
                                @bind-Value="@activity.Remarks.activity_reach_remark"
+                               class="form-control"
+                               placeholder="Enter reach remarks" />
+            </div>
+
+            <!-- Activity Reach Remarks -->
+            <div class="form-group">
+                <label for="budgetRemark">Activity usget Remarks</label>
+                <InputTextArea id="budgetRemark"
+                               @bind-Value="@activity.Remarks.activity_budget_remark"
                                class="form-control"
                                placeholder="Enter reach remarks" />
             </div>
@@ -228,11 +246,13 @@
         try
         {
             using var transaction = await DbContext.Database.BeginTransactionAsync();
+            using var sqlitetransaction = await SqliteDb.Database.BeginTransactionAsync();
 
             try
             {
                 // Add main profile
                 DbContext.activity_profile_tbl.Add(activity.Profile);
+                SqliteDb.activity_profile_tbl.Add(activity.Profile);
 
                 // Set activity IDs for related entities
                 activity.Brief.activity_id = activity.Profile.activity_id;
@@ -252,23 +272,32 @@
                 DbContext.activity_detail_tbl.Add(activity.Detail);
                 DbContext.activity_status_tbl.Add(activity.Status);
                 DbContext.remarks_activity_tbl.Add(activity.Remarks);
+                
+                SqliteDb.activity_brief_tbl.Add(activity.Brief);
+                SqliteDb.activity_detail_tbl.Add(activity.Detail);
+                SqliteDb.activity_status_tbl.Add(activity.Status);
+                SqliteDb.remarks_activity_tbl.Add(activity.Remarks);
 
                 // Add budget items
                 foreach (var budget in activity.BudgetPlans.Where(b => !string.IsNullOrWhiteSpace(b.item_name)))
                 {
                     budget.activity_id = activity.Profile.activity_id;
                     DbContext.activity_budget_plan_tbl.Add(budget);
+                    SqliteDb.activity_budget_plan_tbl.Add(budget);
                 }
 
                 // Save all changes
                 await DbContext.SaveChangesAsync();
+                await SqliteDb.SaveChangesAsync();
                 await transaction.CommitAsync();
+                await sqlitetransaction.CommitAsync();
 
                 Navigation.NavigateTo($"/activities/dev_details/{activity.Profile.activity_id}");
             }
             catch (DbUpdateException dbEx)
             {
                 await transaction.RollbackAsync();
+                await sqlitetransaction.RollbackAsync();
                 var errorMessage = dbEx.InnerException?.Message ?? dbEx.Message;
                 await JSRuntime.InvokeVoidAsync("alert",
                     $"Database error: {errorMessage}");
@@ -276,6 +305,7 @@
             catch (Exception ex)
             {
                 await transaction.RollbackAsync();
+                await sqlitetransaction.RollbackAsync();
                 await JSRuntime.InvokeVoidAsync("alert",
                     $"Error: {ex.Message}");
             }
@@ -295,6 +325,7 @@
         {
             using var transaction = await DbContext.Database.BeginTransactionAsync();
 
+            using var sqliteTransaction = await SqliteDb.Database.BeginTransactionAsync();
             try
             {
                 // Set default values for empty/null strings in the profile
@@ -366,6 +397,8 @@
             catch (Exception ex)
             {
                 await transaction.RollbackAsync();
+
+                await sqliteTransaction.RollbackAsync();
                 await JSRuntime.InvokeVoidAsync("alert", $"Error: {ex.Message}");
                 Console.WriteLine(ex.ToString()); // Log the full error
             }
