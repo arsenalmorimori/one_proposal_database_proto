@@ -1,0 +1,49 @@
+[33m3a1316a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: checkout: moving from proto_ to main
+[33mdf875ed[m[33m ([m[1;31morigin/proto_[m[33m, [m[1;32mproto_[m[33m)[m HEAD@{1}: commit: ADD SQLITE DB (for backup)
+[33mb3eac67[m HEAD@{2}: checkout: moving from proto_ to proto_
+[33mb3eac67[m HEAD@{3}: commit: checkpoint --bef sqlite
+[33m3a1316a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{4}: checkout: moving from main to proto_
+[33m3a1316a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{5}: merge proto_: Fast-forward
+[33m83b6606[m HEAD@{6}: checkout: moving from proto_ to main
+[33m3a1316a[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{7}: commit: SUCCESSFUL --CRUD integration and added save as draft
+[33md3fcbd5[m HEAD@{8}: commit: CONNECTED & DEV : List+View --chilibean
+[33mff1eeb9[m HEAD@{9}: commit: checkpoint 2 - chilibean before code generator
+[33m280d391[m HEAD@{10}: reset: moving to 280d3917228ce23e51ae821be0249d8653ee2a3e
+[33m280d391[m HEAD@{11}: commit: MODEL ADDED default chilibean
+[33m1d920f2[m HEAD@{12}: commit: FAILED -integrating 2 table
+[33m83b6606[m HEAD@{13}: checkout: moving from main to proto_
+[33m83b6606[m HEAD@{14}: reset: moving to proto_
+[33m586a68e[m HEAD@{15}: checkout: moving from proto_ to main
+[33m83b6606[m HEAD@{16}: commit: CONNECTED (club --clean)REP 2
+[33m586a68e[m HEAD@{17}: reset: moving to main
+[33mb62bb95[m HEAD@{18}: checkout: moving from main to proto_
+[33m586a68e[m HEAD@{19}: reset: moving to HEAD
+[33m586a68e[m HEAD@{20}: checkout: moving from main to main
+[33m586a68e[m HEAD@{21}: commit: -- DRAFT Club DB Connected
+[33me04f022[m HEAD@{22}: reset: moving to e04f022
+[33m4b811c1[m HEAD@{23}: commit: Overwrite remote with my version
+[33me04f022[m HEAD@{24}: checkout: moving from e04f0228480fffcf02f074b6548c858d0564859c to main
+[33me04f022[m HEAD@{25}: checkout: moving from proto_ to e04f022
+[33mb62bb95[m HEAD@{26}: reset: moving to HEAD
+[33mb62bb95[m HEAD@{27}: checkout: moving from proto_ to proto_
+[33mb62bb95[m HEAD@{28}: checkout: moving from proto_ to proto_
+[33mb62bb95[m HEAD@{29}: checkout: moving from proto_ to proto_
+[33mb62bb95[m HEAD@{30}: checkout: moving from main to proto_
+[33me04f022[m HEAD@{31}: commit: CONNECTED : Club list --draft
+[33m5a5e67d[m HEAD@{32}: reset: moving to 5a5e67da7ad1dcbccb41a491bb5b1e2c32607190
+[33m5a5e67d[m HEAD@{33}: reset: moving to 5a5e67da7ad1dcbccb41a491bb5b1e2c32607190
+[33m5a5e67d[m HEAD@{34}: reset: moving to 5a5e67da7ad1dcbccb41a491bb5b1e2c32607190
+[33m5a5e67d[m HEAD@{35}: checkout: moving from proto_ to main
+[33mb62bb95[m HEAD@{36}: commit: failed test 1
+[33mfbdc956[m HEAD@{37}: checkout: moving from proto_ to proto_
+[33mfbdc956[m HEAD@{38}: checkout: moving from proto_ to proto_
+[33mfbdc956[m HEAD@{39}: commit: ADDED Scaffolder CRUD
+[33m5a5e67d[m HEAD@{40}: checkout: moving from proto_ to proto_
+[33m5a5e67d[m HEAD@{41}: checkout: moving from proto_ to proto_
+[33m5a5e67d[m HEAD@{42}: checkout: moving from main to proto_
+[33m5a5e67d[m HEAD@{43}: merge proto_: Fast-forward
+[33m500fe4c[m HEAD@{44}: checkout: moving from main to main
+[33m500fe4c[m HEAD@{45}: checkout: moving from proto_ to main
+[33m5a5e67d[m HEAD@{46}: commit: ADD MODEL - default
+[33m500fe4c[m HEAD@{47}: checkout: moving from main to proto_
+[33m500fe4c[m HEAD@{48}: commit (initial): UPLOAD
