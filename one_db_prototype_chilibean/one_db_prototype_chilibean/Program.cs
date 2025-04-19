@@ -12,6 +12,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         new MySqlServerVersion(new Version(8, 0, 23)) // Use your MySQL server version
     ));
 
+builder.Services.AddDbContext<SqliteDbContext>(options =>
+    options.UseSqlite(
+        builder.Configuration.GetConnectionString("SqliteConnection"))
+);
+
 
 
 // Other services...
